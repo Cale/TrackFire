@@ -1,8 +1,8 @@
 TrackFire is an AppleScript “app” that posts iTunes track titles played over an AirPlay device to a Campfire chat room.
 
-The AppleScript runs every few seconds checking for a running version of iTunes, then if iTunes is in play mode and broadcasting to a specific AirPlay device, the track information is posted to Campfire.
+The script runs every few seconds checking for a running version of iTunes, then if iTunes is in play mode and broadcasting to a specific AirPlay device, the track information is posted to Campfire.
 
-For the most part, the script runs without issue, but an error is thrown every once in a while. “Can’t make «class cFIT» id 10219 of «class cUsP» id 10192 of «class cSrc» id 65 of application ‘iTunes’ into the expected type.” (I might have something to do with window focus and screensaver kicking in, but that's total speculation.) Thanks to the folks over at the Apple Discussion Boards for all their help.
+For the most part, the script runs without issue, but an error is thrown every once in a while. “Can’t make «class cFIT» id 10219 of «class cUsP» id 10192 of «class cSrc» id 65 of application ‘iTunes’ into the expected type.” (It might have something to do with window focus and the screensaver kicking in, but that's total speculation.) Thanks to the folks over at the Apple Discussion Boards for all their help.
 
 Installation
 
@@ -10,3 +10,8 @@ Installation
 2. Save as an Application with “Stay Open” checked.
 3. Double-click your new script and it will run in the background.
 4. Use iTunes as you normally would and the script does the rest.
+
+http://developer.apple.com/library/mac/#documentation/AppleScript/Conceptual/AppleScriptX/AppleScriptX.html
+http://campfirenow.com/
+
+@calem
